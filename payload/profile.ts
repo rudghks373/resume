@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -30,12 +30,13 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      link: 'instagram/kyunghwan_0',
+      title: 'instagram/kyunghwan_0',
+      link: 'https://www.instagram.com/kyunghwan_0/',
       icon: faInstagram,
     },
   ],
   notice: {
-    title: '인스타그램 DM이나 이메일로 연락 부탁드립니다.',
+    title: '이메일이나 인스타그램 DM으로 연락 부탁드립니다.',
     icon: faBell,
   },
 };
