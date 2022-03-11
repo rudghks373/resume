@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2021-09-01",
+  "lastestUpdatedAt": "2022-03-15",
   "version": "1.1.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -28,9 +28,8 @@
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "kyungHwanOh",
+    "email": "rudghks373@naver.com"
   },
   "contributors": [],
   "license": "MIT",

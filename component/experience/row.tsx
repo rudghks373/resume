@@ -17,6 +17,7 @@ export default function ExperienceRow({
           {createWorkingPeriod(item.startedAt, item.endedAt)}
         </Col>
         <Col sm={12} md={9}>
+          <img src={item.image} alt={item.title} />
           <h4>{item.title}</h4>
           <i style={Style.gray}>{item.position}</i>
           <ul className="pt-3">

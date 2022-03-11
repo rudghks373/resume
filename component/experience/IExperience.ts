@@ -18,6 +18,7 @@ export declare namespace IExperience {
   export interface Item {
     /** ### (직장)경험 명 */
     title: string;
+    image: string;
 
     /** ### (직장)역할 명 (or Subtitle) */
     position: string;
