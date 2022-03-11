@@ -4,28 +4,12 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
+      title: 'JAVA',
       level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
-    },
-    {
-      title: 'Java',
-      level: 1,
     },
     {
       title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
+      level: 3,
     },
   ],
 };
@@ -56,16 +40,16 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
+      title: 'Vue.js',
       level: 2,
     },
     {
       title: 'React.js',
-      level: 2,
+      level: 1,
     },
     {
       title: 'javascript',
-      level: 2,
+      level: 3,
     },
     {
       title: 'HTML/CSS',
