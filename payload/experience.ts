@@ -20,7 +20,7 @@ const experience: IExperience.Payload = {
       skillKeywords: [
         'JAVA 11',
         'JS',
-        'Spring Boot,',
+        'Spring Boot',
         'Spring Batch',
         'Spring Hateoas',
         'Spring Security',
@@ -47,7 +47,7 @@ const experience: IExperience.Payload = {
     {
       title: '나이스평가정보',
       image: niceinfo,
-      position: 'Software Enginner (CB개발팀)',
+      position: 'Software Enginner (CB개발실 CB개발팀)',
       startedAt: '2019-02',
       endedAt: '2020-11',
       descriptions: [

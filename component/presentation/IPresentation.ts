@@ -1,4 +1,3 @@
-import { IRow } from '../common/IRow';
 import { ICommon } from '../common/ICommon';
 
 export declare namespace IPresentation {
@@ -28,8 +27,5 @@ export declare namespace IPresentation {
      * @example '2010-03'
      */
     at: string;
-
-    /** ### 발표 설명 */
-    descriptions: IRow.Description[];
   }
 }
