@@ -9,12 +9,44 @@ const project: IProject.Payload = {
       where: '인터파크',
       descriptions: [
         {
-          content: 'Add Foo Feature in 2019',
+          content: '배치 관리 플랫폼 프론트엔드 개발',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            { content: 'Integer non turpis ante' },
+            { content: 'Vue.js 프레임워크 사용' },
+            { content: '오픈소스 CoreUI 으로 구성' },
           ],
+        },
+        {
+          content: '배치 관리 플랫폼 백엔드 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'SpringBoot 기반 Rest API 개발' },
+            { content: 'MyBatis -> JPA ORM 전환 작업' },
+          ],
+        },
+        {
+          content: '배치 가이드 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: 'SpringBatch 기반으로 배치 관리 플랫폼에서 사용할 어플리케이션 가이드 개발',
+            },
+          ],
+        },
+        {
+          content: 'APM(모니터링) 및 알림 도입',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Prometheus & Grafana을 사용하여 구성' }],
+        },
+        {
+          content: '로그데이터 수집 및 시각화',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'ELK 스택을 이용하여 로깅 수집 및 시각화' }],
+        },
+        {
+          content: 'Docker & NGINX 서버 설정 및 HA 구성',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Docker & NGINX 서버 설정과, 로드밸런싱 및 HA 구성' }],
         },
       ],
     },
@@ -27,9 +59,37 @@ const project: IProject.Payload = {
           content: 'Add Foo Feature in 2019',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            { content: 'Integer non turpis ante' },
+            { content: 'CI/CD 설계 및 개발' },
+            { content: 'NGINX 서버 설정 upstream 및 SSL 설정' },
           ],
+        },
+      ],
+    },
+    {
+      title: '데이터 추출 시스템 운영 및 리팩토링',
+      startedAt: '2020-12',
+      where: '인터파크',
+      descriptions: [
+        {
+          content: '데이터 추출 시스템 운영 및 수정 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '레거시 및 불필요한 코드 조사 및 청산' },
+            { content: '하루 약 100건 이샹 요청 (데이터 추출양은 수천~수십만건)' },
+          ],
+        },
+        {
+          content: '데이터 추출 성능 개선',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'insert 를 한건씩 excuteUpdate 하고 있어서 속도 저하 발생' },
+            { content: 'insert builk' },
+          ],
+        },
+        {
+          content: '리버스 엔지니어링',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'DB 리버스 ER 모델링 진행' }, { content: 'DA# 사용' }],
         },
       ],
     },
@@ -40,43 +100,39 @@ const project: IProject.Payload = {
       where: '인터파크',
       descriptions: [
         {
-          content: 'Add Foo Feature in 2019',
+          content: 'SpringBoot로 프레임워크 전환',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            { content: 'Integer non turpis ante' },
-          ],
+          descriptions: [{ content: '구형 스프링프레임워크 버전에서 전환' }],
+        },
+        {
+          content: 'APM(모니터링) 및 알림 도입',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Prometheus & Grafana을 사용하여 구성' }],
+        },
+        {
+          content: '로그데이터 수집 및 시각화',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'ELK 스택을 이용하여 로깅 수집 및 시각화' }],
         },
       ],
     },
     {
-      title: '사내 JIRA 시스템 캡쳐 자동화 어플리케이션 개발',
-      startedAt: '2021-11',
-      endedAt: '2022-03',
+      title: '사내 JIRA 시스템 자동화 도구 개발',
+      startedAt: '2020-07',
+      endedAt: '2022-08',
       where: '인터파크',
       descriptions: [
         {
-          content: 'Add Foo Feature in 2019',
+          content: 'JIRA ISSUE 화면 캡처 자동화 도구',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            { content: 'Integer non turpis ante' },
-          ],
-        },
-      ],
-    },
-    {
-      title: '데이터 추출 시스템 운영 및 리팩토링',
-      startedAt: '2021-11',
-      endedAt: '2022-03',
-      where: '인터파크',
-      descriptions: [
-        {
-          content: 'Add Foo Feature in 2019',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            { content: 'Integer non turpis ante' },
+            {
+              content: '회계 감사 시, Jira Issue를 일일이 손으로 화면캡처 해야하는 에러 사항 존재',
+            },
+            {
+              content:
+                'Jira Query Language를 통해 검색된 Jira Issue 들을 자동화 캡처 어플리케이션 개발',
+            },
           ],
         },
       ],

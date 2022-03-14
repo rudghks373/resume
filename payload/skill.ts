@@ -116,7 +116,12 @@ const etc: ISkill.Skill = {
     {
       title: 'Linux',
     },
-
+    {
+      title: 'Tomcat',
+    },
+    {
+      title: 'Apache',
+    },
     {
       title: 'Git / Github',
     },
@@ -155,6 +160,9 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Prometheus',
+    },
+    {
+      title: 'Upsource',
     },
   ],
 };
