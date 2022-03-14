@@ -57,15 +57,15 @@ const project: IProject.Payload = {
           descriptions: [{ content: 'ELK 스택을 이용하여 로깅 수집 및 시각화' }],
         },
         {
-          content: 'Docker & NGINX 서버 설정 및 HA 구성',
+          content: 'NGINX 서버 설정 및 HA 구성',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Docker & NGINX 서버 설정과, 로드밸런싱 및 HA 구성' }],
+          descriptions: [{ content: 'NGINX 서버 설정 Upstream 및 SSL 설정구성, HA 구성' }],
         },
       ],
     },
     {
       title: 'API 관리 플랫폼 개발',
-      startedAt: '2020-12',
+      startedAt: '2021-06',
       where: '인터파크',
       descriptions: [
         {
@@ -90,7 +90,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '레거시 및 불필요한 코드 조사 및 청산' },
-            { content: '하루 약 100건 이상 요청 (데이터 추출양은 수천~수십만건)' },
+            { content: '하루 약 100건 이상 요청 (데이터 추출양은 수천~수십만 건)' },
           ],
         },
         {
@@ -99,7 +99,7 @@ const project: IProject.Payload = {
           descriptions: [
             { content: '데이터 추출후 insert를 1건씩 excuteUpdate 하고 있어서 속도 저하 발생' },
             { content: '1건씩 -> 1000건씩 batch 처리로 성능 향상' },
-            { content: 'fetch size 조절, autucommit 옵션 추가 성능 향상' },
+            { content: 'fetch size 조절, autucommit 옵션 추가등 성능 향상 기여' },
             { content: '예외 처리 및 로그 데이터 수집으로 오류 모니터링 기능 추가' },
           ],
         },
@@ -117,7 +117,7 @@ const project: IProject.Payload = {
       where: '인터파크',
       descriptions: [
         {
-          content: 'Docker & NGINX 서버 설정 및 HA 구성',
+          content: 'Apache 서버 설정 및 HA 구성',
           weight: 'MEDIUM',
           descriptions: [
             { content: '1분당 약 100~200건 호출 되는 서비스' },
@@ -143,8 +143,8 @@ const project: IProject.Payload = {
     },
     {
       title: '사내 JIRA 시스템 자동화 도구 개발',
-      startedAt: '2020-07',
-      endedAt: '2022-08',
+      startedAt: '2021-07',
+      endedAt: '2021-08',
       where: '인터파크',
       descriptions: [
         {
@@ -152,7 +152,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: '회계 감사 시, Jira Issue를 일일이 손으로 화면캡처 해야하는 에러 사항 존재',
+              content: '회계 감사 시, Jira Issue를 일일이 손으로 화면캡처 해야하는 단순 업무 존재',
             },
             {
               content:

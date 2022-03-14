@@ -28,6 +28,7 @@ const experience: IExperience.Payload = {
         'Spring Batch',
         'Spring Hateoas',
         'Spring Security',
+        'Spring Data JPA/Redis',
         'Zipkin',
         'JUIT5',
         'JPA',
