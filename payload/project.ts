@@ -21,17 +21,30 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: 'SpringBoot 기반 Rest API 개발' },
-            { content: 'MyBatis -> JPA ORM 전환 작업' },
+            { content: 'MyBatis -> JPA + Querydsl 전환 작업' },
           ],
         },
         {
-          content: '배치 가이드 개발',
+          content: '배치 애플리케이션 개발',
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: 'SpringBatch 기반으로 배치 관리 플랫폼에서 사용할 어플리케이션 가이드 개발',
+              content: 'SpringBatch 기반으로 배치 관리 플랫폼에서 사용할 애플리케이션 가이드 개발',
             },
           ],
+        },
+        {
+          content: 'CI / CD 구축',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Jenkins를 이용하여 빌드 및 Docker Image 생성' },
+            { content: 'Docker Image 를 이용한 Docker 컨테이너 생성 및 배포' },
+          ],
+        },
+        {
+          content: 'API 문서 자동화',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Swagge를 활용하여 API문서 생성 및 자동화' }],
         },
         {
           content: 'APM(모니터링) 및 알림 도입',
@@ -56,12 +69,14 @@ const project: IProject.Payload = {
       where: '인터파크',
       descriptions: [
         {
-          content: 'Add Foo Feature in 2019',
+          content: 'WSO2 기반 오픈 소스 구축',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: 'CI/CD 설계 및 개발' },
-            { content: 'NGINX 서버 설정 upstream 및 SSL 설정' },
-          ],
+          descriptions: [{ content: '오픈 소스 WSO2를 활용한 API Manager 시스템 구축' }],
+        },
+        {
+          content: 'NGINX 서버 설정',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'NGINX 서버 설정 Upstream 및 SSL 설정' }],
         },
       ],
     },
@@ -75,15 +90,17 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '레거시 및 불필요한 코드 조사 및 청산' },
-            { content: '하루 약 100건 이샹 요청 (데이터 추출양은 수천~수십만건)' },
+            { content: '하루 약 100건 이상 요청 (데이터 추출양은 수천~수십만건)' },
           ],
         },
         {
           content: '데이터 추출 성능 개선',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'insert 를 한건씩 excuteUpdate 하고 있어서 속도 저하 발생' },
-            { content: 'insert builk' },
+            { content: '데이터 추출후 insert를 1건씩 excuteUpdate 하고 있어서 속도 저하 발생' },
+            { content: '1건씩 -> 1000건씩 batch 처리로 성능 향상' },
+            { content: 'fetch size 조절, autucommit 옵션 추가 성능 향상' },
+            { content: '예외 처리 및 로그 데이터 수집으로 오류 모니터링 기능 추가' },
           ],
         },
         {
@@ -99,6 +116,14 @@ const project: IProject.Payload = {
       endedAt: '2022-03',
       where: '인터파크',
       descriptions: [
+        {
+          content: 'Docker & NGINX 서버 설정 및 HA 구성',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '1분당 약 100~200건 호출 되는 서비스' },
+            { content: '서버 이중화 및 로드밸런싱 작업' },
+          ],
+        },
         {
           content: 'SpringBoot로 프레임워크 전환',
           weight: 'MEDIUM',

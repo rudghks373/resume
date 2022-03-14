@@ -16,6 +16,26 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Spring MVC',
+      level: 3,
+    },
+    {
+      title: 'Spring Security',
+      level: 3,
+    },
+    {
+      title: 'Spring Batch',
+      level: 3,
+    },
+    {
+      title: 'Spring Data JPA/Redis',
+      level: 3,
+    },
+    {
+      title: 'Spring HATEOAS',
+      level: 3,
+    },
+    {
       title: 'SpringFramework',
       level: 3,
     },
@@ -33,6 +53,14 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'JPA',
+      level: 3,
+    },
+    {
+      title: 'Querydsl',
+      level: 3,
+    },
+    {
+      title: 'Hibernate',
       level: 3,
     },
     {
