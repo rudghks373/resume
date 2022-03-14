@@ -23,9 +23,9 @@ const internExperience: IinternExperience.Payload = {
       startedAt: '2018-03',
       endedAt: '2018-06',
       descriptions: [
-        '(주)넥스모션에 메신저 플랫폼 기반의 인공지능 챗봇(Chatbot) 개발',
+        '(주)넥스모션 인턴으로 메신저 플랫폼 기반의 인공지능 챗봇(Chatbot) 개발',
         '챗봇 플랫폼 UI/UX구상 및 개발(HTML, JS)',
-        '스프링부트 기반 JAVA개발 및 DA 설계',
+        'SpringBoot 기반 웹 개발 및 DA 설계',
         '실시간 위치기반 시스템을 위한 비콘 설치 및 연동 개발',
         '소프트웨어 테스트 및 유지보수',
       ],

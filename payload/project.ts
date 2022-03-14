@@ -4,6 +4,78 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '단축URL 서비스 리팩토링',
+      startedAt: '2021-11',
+      endedAt: '2022-03',
+      where: '인터파크',
+      descriptions: [
+        {
+          content: 'Apache 서버 설정 및 HA 구성',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '1분당 약 100~200건 호출 되는 서비스' },
+            { content: '서버 이중화 및 로드밸런싱 작업' },
+          ],
+        },
+        {
+          content: 'SpringBoot로 프레임워크 전환',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '구형 스프링프레임워크 버전에서 전환' },
+            { content: '레거시 코드 리팩토링 및 코드 공통화' },
+          ],
+        },
+        {
+          content: 'APM(모니터링) 및 알림 도입',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Prometheus & Grafana을 사용하여 구성' }],
+        },
+        {
+          content: '로그데이터 수집 및 시각화',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Logback + ELK 스택을 이용하여 로깅 수집 및 시각화' }],
+        },
+      ],
+    },
+    {
+      title: '사내 JIRA 시스템 자동화 도구 개발',
+      startedAt: '2021-07',
+      endedAt: '2021-08',
+      where: '인터파크',
+      descriptions: [
+        {
+          content: 'JIRA ISSUE 화면 캡처 자동화 도구',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '회계 감사 시, Jira Issue를 일일이 손으로 화면캡처 해야하는 단순 업무 존재',
+            },
+            {
+              content:
+                'Jira Query Language를 통해 검색된 Jira Issue 들을 자동화 캡처 어플리케이션 개발',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'API 관리 플랫폼 개발',
+      startedAt: '2021-06',
+      where: '인터파크',
+      descriptions: [
+        {
+          content: 'WSO2 기반 오픈 소스 구축',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '오픈 소스 WSO2를 활용한 API Manager 시스템 구축' }],
+        },
+        {
+          content: 'NGINX 서버 설정',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'NGINX 서버 설정 Upstream 및 SSL 설정' }],
+        },
+      ],
+    },
+    {
       title: '배치(Batch) 관리 플랫폼 개발',
       startedAt: '2020-12',
       where: '인터파크',
@@ -64,23 +136,6 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'API 관리 플랫폼 개발',
-      startedAt: '2021-06',
-      where: '인터파크',
-      descriptions: [
-        {
-          content: 'WSO2 기반 오픈 소스 구축',
-          weight: 'MEDIUM',
-          descriptions: [{ content: '오픈 소스 WSO2를 활용한 API Manager 시스템 구축' }],
-        },
-        {
-          content: 'NGINX 서버 설정',
-          weight: 'MEDIUM',
-          descriptions: [{ content: 'NGINX 서버 설정 Upstream 및 SSL 설정' }],
-        },
-      ],
-    },
-    {
       title: '데이터 추출 시스템 운영 및 리팩토링',
       startedAt: '2020-12',
       where: '인터파크',
@@ -111,54 +166,35 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '단축URL 서비스 리팩토링',
-      startedAt: '2021-11',
-      endedAt: '2022-03',
-      where: '인터파크',
+      title: '서버 로그 통합 시스템 개발',
+      startedAt: '2020-08',
+      endedAt: '2020-11',
+      where: '나이스평가정보',
       descriptions: [
         {
-          content: 'Apache 서버 설정 및 HA 구성',
+          content: '전사 시스템 통합 로그 프로젝트에 참여',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '1분당 약 100~200건 호출 되는 서비스' },
-            { content: '서버 이중화 및 로드밸런싱 작업' },
+            {
+              content:
+                'Filebeat & Logstash를 활용해 각 시스템 로그들을 수집 및 가공하여 Kafka로 수집',
+            },
+            { content: 'Kafka Consumer API를 통해 수집된 로그들을 로그 통합 시스템에 적재' },
+            { content: '초당 10,000건 이상 대용량 데이터 수집 및 적재 처리' },
           ],
-        },
-        {
-          content: 'SpringBoot로 프레임워크 전환',
-          weight: 'MEDIUM',
-          descriptions: [{ content: '구형 스프링프레임워크 버전에서 전환' }],
-        },
-        {
-          content: 'APM(모니터링) 및 알림 도입',
-          weight: 'MEDIUM',
-          descriptions: [{ content: 'Prometheus & Grafana을 사용하여 구성' }],
-        },
-        {
-          content: '로그데이터 수집 및 시각화',
-          weight: 'MEDIUM',
-          descriptions: [{ content: 'Logback + ELK 스택을 이용하여 로깅 수집 및 시각화' }],
         },
       ],
     },
     {
-      title: '사내 JIRA 시스템 자동화 도구 개발',
-      startedAt: '2021-07',
-      endedAt: '2021-08',
-      where: '인터파크',
+      title: '사내 메일 배치 서비스 개발',
+      startedAt: '2019-07',
+      endedAt: '2019-09',
+      where: '나이스평가정보',
       descriptions: [
         {
-          content: 'JIRA ISSUE 화면 캡처 자동화 도구',
+          content: '사내 전사 메일 발송 시스템 개발',
           weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: '회계 감사 시, Jira Issue를 일일이 손으로 화면캡처 해야하는 단순 업무 존재',
-            },
-            {
-              content:
-                'Jira Query Language를 통해 검색된 Jira Issue 들을 자동화 캡처 어플리케이션 개발',
-            },
-          ],
+          descriptions: [{ content: '자바 어플리케이션기반으로 하루 평균 1000건이상 발송' }],
         },
       ],
     },
@@ -199,38 +235,10 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [{ content: '사업부 요구에 따라 신용보고서 및 신용스코어 서비스 개발' }],
         },
-      ],
-    },
-    {
-      title: '서버 로그 통합 시스템 개발',
-      startedAt: '2020-08',
-      endedAt: '2020-11',
-      where: '나이스평가정보',
-      descriptions: [
         {
-          content: '전사 시스템 통합 로그 프로젝트에 참여',
+          content: '나이스 크레딧 플랫폼 리팩토링 유지보수',
           weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                'Filebeat & Logstash를 활용해 각 시스템 로그들을 수집 및 가공하여 Kafka로 수집',
-            },
-            { content: 'Kafka Consumer API를 통해 수집된 로그들을 로그 통합 시스템에 적재' },
-            { content: '초당 10,000건 이상 대용량 데이터 수집 및 적재 처리' },
-          ],
-        },
-      ],
-    },
-    {
-      title: '사내 메일 배치 서비스 개발',
-      startedAt: '2019-07',
-      endedAt: '2019-09',
-      where: '나이스평가정보',
-      descriptions: [
-        {
-          content: '사내 전사 메일 발송 시스템 개발',
-          weight: 'MEDIUM',
-          descriptions: [{ content: '자바 어플리케이션기반으로 하루 평균 1000건이상 발송' }],
+          descriptions: [{ content: '레거시 코드 리팩토링 및 코드 공통화' }],
         },
       ],
     },
