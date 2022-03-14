@@ -29,6 +29,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
               <span style={Style.blue}>SKILL</span>
               {createTooltip(payload.tooltip)}
             </h2>
+            <i style={Style.gray}>1: 기초 수준 2: 취미 개발 수준 3: Production 개발 가능 수준</i>
           </Col>
         </Row>
         {payload.skills.map((skill, index) => (

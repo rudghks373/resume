@@ -29,7 +29,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: 'SpringBatch 기반으로 배치 관리 플랫폼에서 사용할 애플리케이션 가이드 개발',
+              content: 'SpringBatch 기반으로 배치 관리 플랫폼에서 사용할 배치 애플리케이션 개발',
             },
           ],
         },
@@ -54,7 +54,7 @@ const project: IProject.Payload = {
         {
           content: '로그데이터 수집 및 시각화',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'ELK 스택을 이용하여 로깅 수집 및 시각화' }],
+          descriptions: [{ content: 'Logback + ELK 스택을 이용하여 로깅 수집 및 시각화' }],
         },
         {
           content: 'NGINX 서버 설정 및 HA 구성',
@@ -137,7 +137,7 @@ const project: IProject.Payload = {
         {
           content: '로그데이터 수집 및 시각화',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'ELK 스택을 이용하여 로깅 수집 및 시각화' }],
+          descriptions: [{ content: 'Logback + ELK 스택을 이용하여 로깅 수집 및 시각화' }],
         },
       ],
     },
