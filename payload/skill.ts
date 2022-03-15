@@ -36,14 +36,6 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Miplatform',
-      level: 3,
-    },
-    {
-      title: 'Nexacropatform',
-      level: 3,
-    },
-    {
       title: 'DevOn Framework',
       level: 3,
     },
@@ -105,6 +97,14 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'HTML',
+      level: 3,
+    },
+    {
+      title: 'Miplatform',
+      level: 3,
+    },
+    {
+      title: 'Nexacropatform',
       level: 3,
     },
     {
