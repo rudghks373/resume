@@ -64,9 +64,9 @@ const project: IProject.Payload = {
       where: '인터파크',
       descriptions: [
         {
-          content: 'WSO2 기반 오픈 소스 구축',
+          content: 'WSO2 기반 오픈 소스 테스트',
           weight: 'MEDIUM',
-          descriptions: [{ content: '오픈 소스 WSO2를 활용한 API Manager 시스템 구축' }],
+          descriptions: [{ content: '오픈 소스 WSO2를 활용한 API Manager 설정 및 테스트' }],
         },
         {
           content: 'NGINX 서버 설정',
