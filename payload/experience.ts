@@ -36,6 +36,7 @@ const experience: IExperience.Payload = {
         'Redis',
         'MySQL',
         'Elasticsearch',
+        'logback',
         'Logstash',
         'Filebeat',
         'Kibana',

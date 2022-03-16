@@ -126,7 +126,10 @@ const project: IProject.Payload = {
         {
           content: '로그데이터 수집 및 시각화',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Logback + ELK 스택을 이용하여 로깅 수집 및 시각화' }],
+          descriptions: [
+            { content: 'Zipkin을 활용한 로그 트레이싱' },
+            { content: 'Logback + ELK 스택을 이용하여 로깅 수집 및 시각화' },
+          ],
         },
         {
           content: 'NGINX 서버 설정 및 HA 구성',
