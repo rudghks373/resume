@@ -32,6 +32,7 @@ const experience: IExperience.Payload = {
         'Zipkin',
         'JUIT5',
         'JPA',
+        'selenium',
         'MyBaits',
         'Redis',
         'MySQL',
