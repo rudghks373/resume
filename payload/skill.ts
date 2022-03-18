@@ -189,7 +189,7 @@ const etc: ISkill.Skill = {
       title: 'Upsource',
     },
     {
-      title: 'selenium',
+      title: 'Selenium',
     },
   ],
 };

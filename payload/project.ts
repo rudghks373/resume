@@ -51,7 +51,7 @@ const project: IProject.Payload = {
               content: '회계 감사 시, Jira Issue를 일일이 손으로 화면캡처 해야하는 단순 업무 존재',
             },
             {
-              content: '자바 셀레니움 크롤러 방식으로 캡쳐 자동화 도구 개발',
+              content: 'Java Selenium 크롤러 방식으로 캡쳐 자동화 도구 개발',
             },
           ],
         },
