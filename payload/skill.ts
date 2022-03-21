@@ -32,7 +32,7 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'SpringFramework',
+      title: 'Spring Framework',
       level: 3,
     },
     {
