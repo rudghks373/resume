@@ -115,7 +115,7 @@ const project: IProject.Payload = {
         {
           content: 'API 문서 자동화',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Swagge를 활용하여 API문서 생성 및 자동화' }],
+          descriptions: [{ content: 'Swagger를 활용하여 API문서 생성 및 자동화' }],
         },
         {
           content: 'APM(모니터링) 및 알림 도입',
