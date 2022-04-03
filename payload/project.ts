@@ -210,7 +210,6 @@ const project: IProject.Payload = {
           content: '나이스크레딧 차세대 시스템 전환',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '스트럿츠(Struts) -> 전자정부프레임워크(스프링프레임워크) 전환 작업' },
             { content: 'Miplatform -> Nexacropatform 전환 작업' },
             { content: '레거시 및 불필요한 코드 조사 및 청산' },
           ],
