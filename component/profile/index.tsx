@@ -44,6 +44,9 @@ function createNameArea(name: Payload['name']) {
         <h1 style={Style.blue}>
           {name.title} <small>{name.small || ''}</small>
         </h1>
+        <small>
+          <i style={Style.blue}>{name.age || ''}</i>
+        </small>
       </Col>
     </Row>
   );

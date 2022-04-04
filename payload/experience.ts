@@ -53,7 +53,7 @@ const experience: IExperience.Payload = {
       ],
     },
     {
-      title: '나이스평가정보',
+      title: '나이스평가정보 (애드민 파견직 소속)',
       image: niceinfo,
       position: 'Software Enginner (CB개발실 CB개발팀)',
       startedAt: '2019-02',

@@ -8,7 +8,7 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'SpringBoot',
+      title: 'Spring Boot',
       level: 3,
     },
     {
@@ -57,10 +57,6 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'Python',
-      level: 2,
-    },
-    {
-      title: 'C',
       level: 2,
     },
   ],
@@ -200,7 +196,7 @@ const etc: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 경험',
 };
 
 export default skill;

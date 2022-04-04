@@ -20,6 +20,9 @@ export declare namespace IProfile {
       title: string;
       /** ### 이름 옆 괄호로 작게 표시해주는 이름 */
       small?: string;
+
+      /** 나이 */
+      age?: string;
     };
     /** ### 연락 수단 목록 */
     contact: Contact[];

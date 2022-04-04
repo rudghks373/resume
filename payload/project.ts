@@ -204,7 +204,7 @@ const project: IProject.Payload = {
       title: '나이스 크레딧 플랫폼 서비스 개발',
       startedAt: '2019-02',
       endedAt: '2020-11',
-      where: 'NICE평가정보',
+      where: '나이스평가정보',
       descriptions: [
         {
           content: '나이스크레딧 차세대 시스템 전환',
