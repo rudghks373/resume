@@ -61,7 +61,7 @@ const experience: IExperience.Payload = {
       descriptions: [
         '나이스평가정보 CB개발실 CB개발팀',
         '나이스크레딧 플랫폼 개발 및 운영',
-        '오라클 DB작업 및 쿼리 최적화',
+        '신용 정보 관련 서비스 개발',
         '사내 공통 프로젝트 개발',
       ],
       skillKeywords: [
