@@ -13,7 +13,7 @@ const project: IProject.Payload = {
           content: 'Apache 서버 설정 및 HA 구성',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '1분당 약 100~200건 호출 되는 서비스' },
+            { content: '분당 약 200~300건 호출 되는 서비스' },
             { content: '서버 이중화 및 로드밸런싱 작업' },
           ],
         },
