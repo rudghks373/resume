@@ -32,13 +32,13 @@ const internExperience: IinternExperience.Payload = {
       skillKeywords: ['JAVA 8,', 'JS', 'SpringBoot', 'MyBaits', 'DA#'],
     },
     {
-      title: "학교 컴퓨터개발 동아리 'YAHAIT'",
+      title: '학교 컴퓨터개발 동아리',
       position: '개발 리더',
       startedAt: '2018-03',
       endedAt: '2019-02',
       descriptions: [
-        '학교 컴퓨터학부 개발동아리 `YAHAIT` 에서 개발리더로 웹 개발 및 코딩 학습주도(자바,자바스크립트,파이썬등)',
-        '웹/앱 애플리케이션 프로젝트 `거리 상점 결제 시스템` 프로젝트 수행 및 공모전 수상',
+        "학교 컴퓨터학부 개발동아리 'YAHAIT' 에서 개발리더로 웹 개발 및 코딩 학습주도(자바,자바스크립트,파이썬등)",
+        "웹/앱 애플리케이션 프로젝트 '거리 상점 결제 시스템' 프로젝트 수행 및 공모전 수상",
         '창업공모전 준비를 토대로 다양한 사업계획서 작성 및 준비',
       ],
     },

@@ -107,15 +107,12 @@ const project: IProject.Payload = {
         {
           content: 'CI / CD 구축',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Jenkins를 이용하여 빌드 및 Docker Image 생성' },
-            { content: 'Docker Image 를 이용한 Docker 컨테이너 생성 및 배포' },
-          ],
+          descriptions: [{ content: 'Docker + Jenkins를 이용하여 CI/CD 환경 구축' }],
         },
         {
           content: 'API 문서 자동화',
           weight: 'MEDIUM',
-          descriptions: [{ content: 'Swagger를 활용하여 API문서 생성 및 자동화' }],
+          descriptions: [{ content: 'Swagger를 활용하여 API 문서 생성 및 자동화' }],
         },
         {
           content: 'APM(모니터링) 및 알림 도입',
@@ -194,7 +191,10 @@ const project: IProject.Payload = {
         {
           content: '사내 전사 메일 발송 시스템 개발',
           weight: 'MEDIUM',
-          descriptions: [{ content: '자바 어플리케이션기반으로 하루 평균 1000건이상 발송' }],
+          descriptions: [
+            { content: 'SMTP Protocol 기반 메일 시스템 개발' },
+            { content: '자바 어플리케이션기반으로 하루 평균 1000건이상 발송' },
+          ],
         },
       ],
     },
@@ -221,7 +221,7 @@ const project: IProject.Payload = {
                 '전자 압류 및 수심 서비스를 1건씩 신청하고 있어서, 다 건으로 개발 할 수 있도록 아이디어 제시',
             },
             { content: '전자 압류 및 추심 서비스를 다건으로 신청할 수 있는 서비스 개발' },
-            { content: '하루 약 1,000~2,000건 신청 (건당 5,000원 매출)' },
+            { content: '하루 약 1,000~2,000건 신청 (건당 5,000원 매출, 한달 약 1~2천만원 매출)' },
           ],
         },
         {
