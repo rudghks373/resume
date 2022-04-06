@@ -48,10 +48,10 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: '회계 감사 시, Jira Issue를 일일이 손으로 화면캡처 해야하는 단순 업무 존재',
+              content: 'JQL(Jira Query Language)를 통한 지라 이슈 데이터 자동화 추출 도구 개발',
             },
             {
-              content: 'Java Selenium 크롤러 방식으로 캡쳐 자동화 도구 개발',
+              content: 'Java Selenium 크롤러 방식으로 지라 이슈 캡쳐 자동화 도구 개발',
             },
           ],
         },
@@ -147,16 +147,14 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '레거시 및 불필요한 코드 조사 및 청산' },
-            { content: '하루 약 100건 이상 요청 (데이터 추출양은 수천~수십만 건)' },
+            { content: '하루 데이터 추출양은 수천~수십만 건' },
           ],
         },
         {
           content: '데이터 추출 성능 개선',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '데이터 추출후 insert를 1건씩 excuteUpdate 하고 있어서 속도 저하 발생' },
-            { content: '1건씩 -> 1000건씩 batch 처리로 성능 향상' },
-            { content: 'fetch size 조절, autucommit 옵션 추가등 성능 향상 기여' },
+            { content: '1건씩 -> 5000건씩 batch 처리로 성능 향상' },
             { content: '예외 처리 및 로그 데이터 수집으로 오류 모니터링 기능 추가' },
           ],
         },
