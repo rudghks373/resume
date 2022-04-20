@@ -5,17 +5,14 @@ const project: IProject.Payload = {
   list: [
     {
       title: '단축URL 서비스 리팩토링',
-      startedAt: '2021-11',
+      startedAt: '2021-12',
       endedAt: '2022-03',
       where: '인터파크',
       descriptions: [
         {
-          content: 'Apache 서버 설정 및 HA 구성',
+          content: 'Nginx 서버 설정 및 HA 구성',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: '분당 약 200~300건 호출 되는 서비스' },
-            { content: '서버 이중화 및 로드밸런싱 작업' },
-          ],
+          descriptions: [{ content: '서버 이중화 및 로드밸런싱 작업' }],
         },
         {
           content: 'SpringBoot로 프레임워크 전환',
@@ -60,6 +57,7 @@ const project: IProject.Payload = {
     {
       title: 'API 관리 플랫폼 개발',
       startedAt: '2021-06',
+      endedAt: '2021-12',
       where: '인터파크',
       descriptions: [
         {
@@ -77,6 +75,7 @@ const project: IProject.Payload = {
     {
       title: '배치(Batch) 관리 플랫폼 개발',
       startedAt: '2020-12',
+      endedAt: '2021-12',
       where: '인터파크',
       descriptions: [
         {
