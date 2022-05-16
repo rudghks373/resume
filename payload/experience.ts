@@ -10,6 +10,10 @@ const experience: IExperience.Payload = {
       title: '인터파크',
       image: interpark,
       position: 'Software Enginner (서비스인프라실 공통플랫폼팀)',
+      positionStartedAt:'2020.12',
+      positionEndedAt:'2022.04',
+      positionTwo: 'Software Enginner (투어프로덕트실 투어플랫폼개발팀)',
+      positionTwoPeriodEndedAt:'2022.04',
       startedAt: '2020-12',
       descriptions: [
         '인터파크 서비스인프라실 공통플랫폼팀',
@@ -20,6 +24,11 @@ const experience: IExperience.Payload = {
         '데이터 추출 시스템 운영 및 개발',
         '단축URL 서비스 운영 및 개발',
         'Upsource(코드리뷰) 도구 운영 및 가이드 제공',
+      ],
+      descriptionsTwo: [
+        '인터파크 투어프로덕트실 투어플랫폼개발팀',
+        '해외 호텔 API 개발',
+        '해외 호텔 어드민 사이트 전환 프로젝트(.NET - > JAVA)',
       ],
       skillKeywords: [
         'JAVA 11',

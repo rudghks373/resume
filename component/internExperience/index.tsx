@@ -10,7 +10,7 @@ import ExperienceRow from './row';
 
 type Payload = IinternExperience.Payload;
 
-export const internExperience = {
+export const InternExperience = {
   Component: ({ payload }: PropsWithChildren<{ payload: Payload }>) => {
     return PreProcessingComponent<Payload>({
       payload,

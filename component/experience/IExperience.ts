@@ -22,6 +22,10 @@ export declare namespace IExperience {
 
     /** ### (직장)역할 명 (or Subtitle) */
     position: string;
+    positionStartedAt?: string;
+    positionEndedAt?: string;
+    positionTwoStartedAt?: string;
+    positionTwoPeriodEndedAt?: string;
 
     /**
      * ### (직장)경험 시작 일
@@ -48,6 +52,7 @@ export declare namespace IExperience {
      */
 
     descriptions: string[];
+    descriptionsTwo?: string[];
     /**
      * ### (직장)경험의 키워드
      *

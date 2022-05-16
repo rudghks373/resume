@@ -17,15 +17,23 @@ export default function ExperienceRow({
           {createWorkingPeriod(item.startedAt, item.endedAt)}
         </Col>
         <Col sm={12} md={9}>
-          <img src={item.image} alt={item.title} />
+        <img src={item.image} alt={item.title} />
           <h4>{item.title}</h4>
-          <i style={Style.gray}>{item.position}</i>
+          <i style={Style.gray}>{item.positionTwo} </i>
+          <Badge color="info">{item.positionTwoStartedAt} ~ {item.positionTwoPeriodEndedAt}</Badge>
+          <ul className="pt-3">
+            {item.descriptionsTwo && item.descriptionsTwo.map((description, descIndex) => (
+              <li key={descIndex.toString()}>{description}</li>
+            ))}
+          </ul>
+          <i style={Style.gray}>{item.position} </i>
+          <Badge color="info">{item.positionStartedAt} ~ {item.positionEndedAt}</Badge>
           <ul className="pt-3">
             {item.descriptions.map((description, descIndex) => (
               <li key={descIndex.toString()}>{description}</li>
             ))}
-            {createSkillKeywords(item.skillKeywords)}
           </ul>
+          {createSkillKeywords(item.skillKeywords)}
         </Col>
       </Row>
     </div>

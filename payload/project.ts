@@ -6,7 +6,7 @@ const project: IProject.Payload = {
     {
       title: '단축URL 서비스 리팩토링',
       startedAt: '2021-12',
-      endedAt: '2022-03',
+      endedAt: '2022-04',
       where: '인터파크',
       descriptions: [
         {
@@ -75,7 +75,7 @@ const project: IProject.Payload = {
     {
       title: '배치(Batch) 관리 플랫폼 개발',
       startedAt: '2020-12',
-      endedAt: '2021-12',
+      endedAt: '2022-04',
       where: '인터파크',
       descriptions: [
         {
@@ -136,6 +136,7 @@ const project: IProject.Payload = {
     {
       title: '데이터 추출 시스템 운영 및 리팩토링',
       startedAt: '2020-12',
+      endedAt: '2022-04',
       where: '인터파크',
       descriptions: [
         {
