@@ -20,9 +20,7 @@ export default function ExperienceRow({
           <img src={item.image} alt={item.title} />
           <h4>{item.title}</h4>
           <i style={Style.gray}>{item.positionTwo} </i>
-          <Badge color="info">
-            {item.positionTwoStartedAt} ~ {item.positionTwoPeriodEndedAt}
-          </Badge>
+          {createPositionPeriod(item.positionTwoStartedAt, item.positionTwoPeriodEndedAt)}
           <ul className="pt-3">
             {item.descriptionsTwo &&
               item.descriptionsTwo.map((description, descIndex) => (
@@ -30,9 +28,7 @@ export default function ExperienceRow({
               ))}
           </ul>
           <i style={Style.gray}>{item.position} </i>
-          <Badge color="info">
-            {item.positionStartedAt} ~ {item.positionEndedAt}
-          </Badge>
+          {createPositionPeriod(item.positionStartedAt, item.positionEndedAt)}
           <ul className="pt-3">
             {item.descriptions.map((description, descIndex) => (
               <li key={descIndex.toString()}>{description}</li>
@@ -106,5 +102,16 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
         <Badge color="info">{Util.getFormattingDuration(startedAt, endedAt)}</Badge>
       </Col>
     </Row>
+  );
+}
+
+function createPositionPeriod(startedAtString?: string, endedAtString?: string) {
+  if (startedAtString == null) {
+    return '';
+  }
+  return (
+    <Badge color="info">
+      {startedAtString} ~ {endedAtString}
+    </Badge>
   );
 }
