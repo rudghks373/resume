@@ -24,7 +24,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
   grayUnder: {
     color: 'gray',
     textDecoration: 'underline',
-    textUnderlinePosition:'under',
+    textUnderlinePosition: 'under',
   },
 
   global: {

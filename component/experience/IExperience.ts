@@ -24,6 +24,7 @@ export declare namespace IExperience {
     position: string;
     positionStartedAt?: string;
     positionEndedAt?: string;
+    positionTwo?: string;
     positionTwoStartedAt?: string;
     positionTwoPeriodEndedAt?: string;
 

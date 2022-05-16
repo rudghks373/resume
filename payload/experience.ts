@@ -10,10 +10,10 @@ const experience: IExperience.Payload = {
       title: '인터파크',
       image: interpark,
       position: 'Software Enginner (서비스인프라실 공통플랫폼팀)',
-      positionStartedAt:'2020.12',
-      positionEndedAt:'2022.04',
+      positionStartedAt: '2020.12',
+      positionEndedAt: '2022.04',
       positionTwo: 'Software Enginner (투어프로덕트실 투어플랫폼개발팀)',
-      positionTwoPeriodEndedAt:'2022.04',
+      positionTwoPeriodEndedAt: '2022.04',
       startedAt: '2020-12',
       descriptions: [
         '인터파크 서비스인프라실 공통플랫폼팀',

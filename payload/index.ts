@@ -45,7 +45,6 @@ const Payload: Payload = {
 };
 
 interface Payload {
-  interParkExperience: Payload;
   profile: IProfile.Payload;
   introduce: IIntroduce.Payload;
   skill: ISkill.Payload;
