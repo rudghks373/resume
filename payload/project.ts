@@ -4,9 +4,28 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '해외호텔 어드민 플랫폼 차세대 전환 프로젝트',
+      startedAt: '2022-04',
+      where: '인터파크',
+      descriptions: [
+        {
+          content: '해외호텔 어드민 플랫폼 차세대 전환 프로젝트',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'ASP.NET(닷넷) 기반의 기존 해외호엘 어드민 프로젝트를 자바 기반(Spring Boot)의 차세대 프로젝트 개발',
+            },
+            { content: 'Multi Module 프로젝트 기반 + JPA 기반으로 REST API 개발' },
+            { content: '타임리프 템플릿 기반으로 Front-end 개발' },
+          ],
+        },
+      ],
+    },
+    {
       title: '단축URL 서비스 리팩토링',
       startedAt: '2021-12',
-      endedAt: '2022-04',
+      endedAt: '2022-01',
       where: '인터파크',
       descriptions: [
         {
