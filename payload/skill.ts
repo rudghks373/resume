@@ -88,7 +88,7 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'javascript',
+      title: 'JavaScript',
       level: 3,
     },
     {
