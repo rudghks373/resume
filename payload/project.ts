@@ -14,10 +14,10 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'ASP.NET(닷넷) 기반의 기존 해외호엘 어드민 프로젝트를 자바 기반(Spring Boot)의 차세대 프로젝트 개발',
+                'ASP.NET(닷넷) 기반의 레가시 해외호텔 어드민 프로젝트 -> 자바 기반(Spring Boot)의 차세대 프로젝트 개발',
             },
-            { content: 'Multi Module 프로젝트 기반 + JPA 기반으로 REST API 개발' },
-            { content: '타임리프 템플릿 기반으로 Front-end 개발' },
+            { content: 'Multi Module 프로젝트 + JPA 기반 REST API 개발' },
+            { content: '타임리프 템플릿 기반 Front-end 개발' },
           ],
         },
       ],
