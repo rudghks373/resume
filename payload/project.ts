@@ -14,7 +14,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'ASP.NET(닷넷) 기반의 레가시 해외호텔 어드민 프로젝트 -> 자바 기반(Spring Boot)의 차세대 프로젝트 개발',
+                'ASP.NET(닷넷) 기반의 레거시 해외호텔 어드민 프로젝트 -> 자바 기반(Spring Boot)의 차세대 프로젝트 개발',
             },
             { content: 'Multi Module 프로젝트 + JPA 기반 REST API 개발' },
             { content: '타임리프 템플릿 기반 Front-end 개발' },
@@ -37,7 +37,7 @@ const project: IProject.Payload = {
           content: 'SpringBoot로 프레임워크 전환',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '구형 스프링프레임워크 버전에서 전환' },
+            { content: '구형 스프링프레임워크에서 SpringBoot로 전환' },
             { content: '레거시 코드 리팩토링 및 코드 공통화' },
           ],
         },
@@ -126,11 +126,6 @@ const project: IProject.Payload = {
           content: 'CI / CD 구축',
           weight: 'MEDIUM',
           descriptions: [{ content: 'Docker + Jenkins를 이용하여 CI/CD 환경 구축' }],
-        },
-        {
-          content: 'API 문서 자동화',
-          weight: 'MEDIUM',
-          descriptions: [{ content: 'Swagger를 활용하여 API 문서 생성 및 자동화' }],
         },
         {
           content: 'APM(모니터링) 및 알림 도입',
@@ -240,7 +235,7 @@ const project: IProject.Payload = {
                 '전자 압류 및 수심 서비스를 1건씩 신청하고 있어서, 다 건으로 개발 할 수 있도록 아이디어 제시',
             },
             { content: '전자 압류 및 추심 서비스를 다건으로 신청할 수 있는 서비스 개발' },
-            { content: '하루 약 1,000~2,000건 신청 (건당 5,000원 매출, 한달 약 1~2천만원 매출)' },
+            { content: '하루 약 1,000~2,000건 신청 (건당 5,000원, 한달 약 1~2천만원 매출)' },
           ],
         },
         {
