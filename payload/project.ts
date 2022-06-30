@@ -16,7 +16,7 @@ const project: IProject.Payload = {
               content:
                 'ASP.NET(닷넷) 기반의 레거시 해외호텔 어드민 프로젝트 -> 자바 기반(Spring Boot)의 차세대 프로젝트 개발',
             },
-            { content: 'Multi Module 프로젝트 + JPA 기반 REST API 개발' },
+            { content: 'SpringBoot Multi Module 프로젝트 + JPA 기반 REST API 개발' },
             { content: '타임리프 템플릿 기반 Front-end 개발' },
           ],
         },
@@ -32,6 +32,11 @@ const project: IProject.Payload = {
           content: 'Nginx 서버 설정 및 HA 구성',
           weight: 'MEDIUM',
           descriptions: [{ content: '서버 이중화 및 로드밸런싱 작업' }],
+        },
+        {
+          content: 'CI / CD 구축',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'Docker + Jenkins를 이용하여 CI/CD 환경 구축' }],
         },
         {
           content: 'SpringBoot로 프레임워크 전환',
