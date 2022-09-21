@@ -13,7 +13,7 @@ import { Introduce } from '../component/introduce';
 import { Presentation } from '../component/presentation';
 import { Profile } from '../component/profile';
 import { Project } from '../component/project';
-import { Skill } from '../component/skill';
+// import { Skill } from '../component/skill';
 import { Style } from '../component/common/Style';
 import Payload from '../payload';
 // import { Article } from '../component/article';
@@ -29,7 +29,7 @@ function Yosume() {
       <Container style={Style.global}>
         <Profile.Component payload={Payload.profile} />
         <Introduce.Component payload={Payload.introduce} />
-        <Skill.Component payload={Payload.skill} />
+        {/* <Skill.Component payload={Payload.skill} /> */}
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />
         {/*
