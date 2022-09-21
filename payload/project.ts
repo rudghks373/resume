@@ -16,6 +16,10 @@ const project: IProject.Payload = {
               content:
                 'ASP.NET(닷넷) 기반의 레거시 해외호텔 어드민 프로젝트 -> 자바 기반(Spring Boot)의 차세대 프로젝트 개발',
             },
+            {
+              content:
+                'DB프로시저 기반 서비스 로직 처리 -> 자바 애플리케이션 서비스 로직 처리로 전환',
+            },
             { content: 'SpringBoot Multi Module 프로젝트 + JPA 기반 REST API 개발' },
             { content: '타임리프 템플릿 기반 Front-end 개발' },
           ],
