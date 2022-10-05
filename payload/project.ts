@@ -4,6 +4,31 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '해외호텔 공급사 연동플랫폼 개발',
+      startedAt: '2022-08',
+      where: '인터파크',
+      descriptions: [
+        {
+          content: '해외호텔 공급사 연동플랫폼 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '해외호텔 공급사(아고다,익스피디아,더비소프트등) 연동플랫폼 개발',
+              descriptions: [
+                { content: 'SpringBoot Multi Module 프로젝트 + JPA 기반 REST API 개발' },
+              ],
+            },
+            {
+              content: '해외호텔 공통지역코드체계 개발',
+            },
+            {
+              content: '상품(해외호텔) 마크업(마진) 및 최종 요금 조회 API 개발',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: '해외호텔 어드민 플랫폼 차세대 전환 프로젝트',
       startedAt: '2022-04',
       where: '인터파크',
