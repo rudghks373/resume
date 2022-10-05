@@ -12,19 +12,20 @@ const project: IProject.Payload = {
           content: '해외호텔 공급사 연동플랫폼 개발',
           weight: 'MEDIUM',
           descriptions: [
-            {
-              content: '해외호텔 공급사(아고다,익스피디아,더비소프트등) 연동플랫폼 개발',
-              descriptions: [
-                { content: 'SpringBoot Multi Module 프로젝트 + JPA 기반 REST API 개발' },
-              ],
-            },
-            {
-              content: '해외호텔 공통지역코드체계 개발',
-            },
-            {
-              content: '상품(해외호텔) 마크업(마진) 및 최종 요금 조회 API 개발',
-            },
+            { content: '해외호텔 공급사(아고다,익스피디아,더비소프트등) 연동플랫폼 개발' },
+            { content: 'SpringBoot Multi Module 프로젝트 + JPA 기반 REST API 개발' },
           ],
+        },
+        {
+          content: '해외호텔 공통지역코드체계 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전사 공통적으로 사용할 지역코드 개발 (익스피디아 지역체계 사용)' },
+          ],
+        },
+        {
+          content: '상품(해외호텔) 마크업(마진) 및 최종 요금 조회 API 개발',
+          weight: 'MEDIUM',
         },
       ],
     },
