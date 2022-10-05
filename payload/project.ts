@@ -24,7 +24,7 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '상품(해외호텔) 마크업(마진) 및 최종 요금 조회 API 개발',
+          content: '상품(해외호텔) 마크업(마진) 및 최종 요금 관련 API 개발',
           weight: 'MEDIUM',
         },
       ],
