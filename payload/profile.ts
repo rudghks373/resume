@@ -16,8 +16,8 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'rudghks373@naver.com',
-      link: 'mailto:﻿rudghks373@naver.com',
+      title: 'rudghks474@gmail.com',
+      link: 'mailto:﻿rudghks474@gmail.com',
       icon: faEnvelope,
     },
     {
