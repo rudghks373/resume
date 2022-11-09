@@ -4,12 +4,12 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '해외호텔 공급사 연동플랫폼 개발',
+      title: '해외호텔 API 개발',
       startedAt: '2022-08',
       where: '인터파크',
       descriptions: [
         {
-          content: '해외호텔 공급사 연동플랫폼 개발',
+          content: '해외호텔 공급사 연동 API 개발',
           weight: 'MEDIUM',
           descriptions: [
             { content: '해외호텔 공급사(아고다,익스피디아,더비소프트등) 연동플랫폼 개발' },
@@ -105,24 +105,6 @@ const project: IProject.Payload = {
               content: 'Java Selenium 크롤러 방식으로 지라 이슈 캡쳐 자동화 도구 개발',
             },
           ],
-        },
-      ],
-    },
-    {
-      title: 'API 관리 플랫폼 개발',
-      startedAt: '2021-06',
-      endedAt: '2021-12',
-      where: '인터파크',
-      descriptions: [
-        {
-          content: 'WSO2 기반 오픈 소스 테스트',
-          weight: 'MEDIUM',
-          descriptions: [{ content: '오픈 소스 WSO2를 활용한 API Manager 설정 및 테스트' }],
-        },
-        {
-          content: 'NGINX 서버 설정',
-          weight: 'MEDIUM',
-          descriptions: [{ content: 'NGINX 서버 설정 Upstream 및 SSL 설정' }],
         },
       ],
     },
