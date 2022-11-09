@@ -17,7 +17,7 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '해외호텔 공통지역코드체계 개발',
+          content: '해외호텔 공통지역코드체계 API 개발',
           weight: 'MEDIUM',
           descriptions: [
             { content: '전사 공통적으로 사용할 지역코드 개발 (익스피디아 지역체계 사용)' },
