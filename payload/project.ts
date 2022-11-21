@@ -17,7 +17,7 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '해외호텔 공통지역코드체계 API 개발',
+          content: '해외호텔 공통지역코드체계 개발',
           weight: 'MEDIUM',
           descriptions: [
             { content: '전사 공통적으로 사용할 지역코드 개발 (익스피디아 지역체계 사용)' },
@@ -224,7 +224,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: 'SMTP Protocol 기반 메일 시스템 개발' },
-            { content: '자바 어플리케이션기반으로 하루 평균 1000건이상 발송' },
+            { content: '자바 애플리케이션(JavaMail API 사용)기반으로 하루 평균 1000건이상 발송' },
           ],
         },
       ],
