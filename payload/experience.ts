@@ -12,7 +12,7 @@ const experience: IExperience.Payload = {
       position: 'Software Enginner (서비스인프라실 공통플랫폼팀)',
       positionStartedAt: '2020.12',
       positionEndedAt: '2022.04',
-      positionTwo: 'Software Enginner (투어프로덕트실 해외숙박 & 패키지개발팀)',
+      positionTwo: 'Software Enginner (투어프로덕트실 해외숙박&패키지개발팀)',
       positionTwoStartedAt: '2022.04',
       startedAt: '2020-12',
       descriptions: [
