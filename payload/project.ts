@@ -4,16 +4,48 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '해외호텔 연동플랫폼 개발 및 리팩토링',
+      startedAt: '2023-01',
+      where: '인터파크',
+      descriptions: [
+        {
+          content: '야놀자클라우드코리아 API 연동 개발',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '야놀자클라우드에서 해외호텔상품 조회 및 예약을 위한 외부 API 연동 개발' },
+          ],
+        },
+        {
+          content: '연동플랫폼 리팩토링',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '연동플랫폼 호출 서비스 + 외부 API 연동 서비스 -> 하나의 서비스로 리패키징 및 통합 개발',
+            },
+            {
+              content:
+                '두 애플리케이션 통신간 gRPC 통신 계층 제거 (바로 공급사 API 호출 방식으로 변경)',
+            },
+            { content: '서킷브레이커 (resilience4j) 도입으로 외부 공급사 API Fail Fast 응답 처리' },
+            { content: '미사용 소스 및 패키지 리팩토링' },
+          ],
+        },
+      ],
+    },
+    {
       title: '해외호텔 API 개발',
       startedAt: '2022-08',
       where: '인터파크',
       descriptions: [
         {
-          content: '해외호텔 공급사 연동 API 개발',
+          content: '해외호텔 메인 전시 화면 개편',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '해외호텔 공급사(아고다,익스피디아,더비소프트등) 연동플랫폼 개발' },
-            { content: 'SpringBoot Multi Module 프로젝트 + JPA 기반 REST API 개발' },
+            { content: '해외호텔(숙박) 페이지 메인 개편으로 인한 전시 API 개발' },
+            { content: '지역 & 테마 추천 리스트 조회 API' },
+            { content: '인기 지역 조회 API' },
+            { content: '해외호텔 어드민 공통 전시 관리 기능 추가' },
           ],
         },
         {
