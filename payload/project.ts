@@ -12,7 +12,7 @@ const project: IProject.Payload = {
           content: '야놀자클라우드코리아 API 연동 개발',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '야놀자클라우드에서 해외호텔상품 조회 및 예약을 위한 외부 API 연동 개발' },
+            { content: '해외숙소 상품조회 및 예약을 위한 야놀자클라우드 API 연동 개발' },
           ],
         },
         {
