@@ -37,7 +37,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '이메일이나 인스타그램 DM으로 연락 부탁드립니다.',
+    title: '이메일로 연락 부탁드립니다.',
     icon: faBell,
   },
 };
