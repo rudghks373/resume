@@ -18,7 +18,6 @@ const experience: IExperience.Payload = {
       descriptions: [
         '인터파크 서비스인프라실 공통플랫폼팀',
         '공통 서비스 구축',
-        '사내 프레임워크 표준화',
         '배치 관리 플랫폼 개발',
         '데이터 추출 시스템 운영 및 개발',
         '단축URL 서비스 운영 및 개발',
