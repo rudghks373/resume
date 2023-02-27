@@ -12,7 +12,7 @@ const profile: IProfile.Payload = {
   name: {
     title: '오경환',
     small: '(Oh KyungHwan)',
-    age: '만 28세',
+    age: '만 29세',
   },
   contact: [
     {
